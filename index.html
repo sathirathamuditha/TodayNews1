@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A modern Our Story section with a customizable YouTube Watch Now link.">
+  <title>Our Story</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <section class="story-card" aria-labelledby="story-title">
+      <div class="shape shape-orange" aria-hidden="true"></div>
+      <div class="shape shape-blue" aria-hidden="true"></div>
+      <div class="dots" aria-hidden="true"></div>
+
+      <div class="story-image-wrap">
+        <img
+          class="story-image"
+          src="https://img.youtube.com/vi/OBK_1RThixs/maxresdefault.jpg"
+          alt="Smiling professional woman in a bright modern office"
+        >
+      </div>
+
+      <div class="story-content">
+        <h2 id="story-title">US Midterms 2026 latest: Trump explodes at hecklers in NC</h2>
+
+        <!-- Change the href below to your own YouTube channel or video URL. -->
+        <a
+          class="watch-now"
+          id="watch-now-link"
+          href="https://youtu.be/OBK_1RThixs?si=eONF_JWWk7kXy-E5"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Watch now on YouTube (opens in a new tab)"
+        >WATCH NOW <span aria-hidden="true">▶</span></a>
+
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
